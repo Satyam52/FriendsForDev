@@ -1,0 +1,35 @@
+{
+  "name": "friendsfordev",
+  "version": "1.0.0",
+  "description": "social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satyam52/FriendsForDev.git"
+  },
+  "author": "ABHISHEK KUMAR GUPTA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Satyam52/FriendsForDev/issues"
+  },
+  "homepage": "https://github.com/Satyam52/FriendsForDev#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  }
+}
