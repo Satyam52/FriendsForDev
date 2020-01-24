@@ -1,9 +1,13 @@
 const express = require("express");
 const app = express();
 const connectDB = require("./config/db");
+const bodyParser = require("body-parser");
 
-///conect Database
+///connect Database
 connectDB();
+
+//init bodyParser
+app.use(bodyParser.json({ extended: false }));
 
 app.get("/", (req, res, next) => {
   res.send("RestAPI Runnig");
