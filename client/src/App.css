@@ -406,11 +406,11 @@ button {
 }
 
 .profile-exp {
-  grid-area: exp;
+  grid-area: exp !important;
 }
 
 .profile-edu {
-  grid-area: edu;
+  grid-area: edu !important;
 }
 
 .profile-exp h2,

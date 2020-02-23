@@ -10,7 +10,7 @@ connectDB();
 app.use(bodyParser.json({ extended: false }));
 
 app.get("/", (req, res, next) => {
-  res.send("RestAPI Runnig");
+  res.send("RestAPI Running");
 });
 app.use("/api/auth", require("./routes/api/auth"));
 app.use("/api/user", require("./routes/api/user"));

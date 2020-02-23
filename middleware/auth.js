@@ -6,7 +6,7 @@ module.exports = function(req, res, next) {
 
   //empty token
   if (!token) {
-    return res.status(400).json({ msg: "No token,Authrization Denied" });
+    return res.status(400).json({ msg: "No token, Authrization Denied" });
   }
   //verify token
   try {

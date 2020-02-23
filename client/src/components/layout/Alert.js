@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
+
 import { MDBNotification, MDBContainer } from "mdbreact";
 
 const Alert = ({ alerts }) => (
@@ -20,10 +21,11 @@ const Alert = ({ alerts }) => (
           key={alert.id}
           autohide={4000}
           className={`alert-${alert.alertType}`}
-          closeClassName="blue-grey-text"
+          closeClassName="elegant-color white-text"
+          bodyClassName="font-weight-bold"
           fade
-          icon="bell"
-          iconClassName="blue-grey-text"
+          icon="envelope"
+          iconClassName="white-text"
           message={alert.msg}
           show
           title="ALERT"
