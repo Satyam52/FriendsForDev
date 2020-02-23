@@ -24,7 +24,7 @@ const Alert = ({ alerts }) => (
           style={{ backgroundColor: "primary" }}
           className="alert-primary"
           closeClassName="elegant-color white-text"
-          bodyClassName="font-weight-bold"
+          bodyClassName="font-weight-bold primary dark-text"
           fade
           icon="envelope"
           iconClassName="white-text"

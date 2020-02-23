@@ -8,10 +8,10 @@ export default class Footer extends Component {
         <div className="container-fluid text-center text-md-left">
           <div className="row">
             <div className="col-md-6 mt-md-0 mt-3">
-              <h5 className="text-uppercase">About Mindspirint</h5>
+              <h5 className="text-uppercase">About DevFriends</h5>
               <p>
-                Here you can use rows and columns to organize your footer
-                content.
+                DevFriends is made intended to help Devlopers to communicate and
+                develop themselves.
               </p>
             </div>
 
