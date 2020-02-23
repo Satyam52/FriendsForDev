@@ -37,7 +37,6 @@ const Alert = ({ alerts }) => (
           key={alert.id}
           show
           fade
-          className={`alert alert-${alert.alertType}`}
           iconClassName="text-primary"
           title="ALERT"
           message={alert.msg}
