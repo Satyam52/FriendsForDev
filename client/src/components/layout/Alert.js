@@ -21,6 +21,7 @@ const Alert = ({ alerts }) => (
           key={alert.id}
           autohide={4000}
           // className={`alert-${alert.alertType}`}
+          style={{ backgroundColor: "primary" }}
           className="alert-primary"
           closeClassName="elegant-color white-text"
           bodyClassName="font-weight-bold"
