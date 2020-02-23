@@ -17,21 +17,29 @@ const Alert = ({ alerts }) => (
     {alerts !== null &&
       alerts.length > 0 &&
       alerts.map(alert => (
+        // <MDBNotification
+        //   key={alert.id}
+        //   autohide={4000}
+        //   // className={`alert-${alert.alertType}`}
+        //   style={{ backgroundColor: "primary" }}
+        //   className="alert-primary"
+        //   closeClassName="elegant-color white-text"
+        //   bodyClassName="font-weight-bold primary dark-text"
+        //   fade
+        //   icon="envelope"
+        //   iconClassName="white-text"
+        //   message={alert.msg}
+        //   show
+        //   title="ALERT"
+        //   titleClassName="elegant-color-dark white-text"
+        // />
         <MDBNotification
           key={alert.id}
-          autohide={4000}
-          // className={`alert-${alert.alertType}`}
-          style={{ backgroundColor: "primary" }}
-          className="alert-primary"
-          closeClassName="elegant-color white-text"
-          bodyClassName="font-weight-bold primary dark-text"
-          fade
-          icon="envelope"
-          iconClassName="white-text"
-          message={alert.msg}
           show
+          fade
+          iconClassName="text-primary"
           title="ALERT"
-          titleClassName="elegant-color-dark white-text"
+          message={alert.msg}
         />
       ))}
   </MDBContainer>
