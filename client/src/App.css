@@ -1,5 +1,4 @@
-/* Global Styles */
-:root {
+Global Styles :root {
   --primary-color: #17a2b8;
   --dark-color: #343a40;
   --light-color: #f4f4f4;
@@ -258,7 +257,6 @@ img {
   border: 1px solid #ccc;
 }
 
-.form input[type="submit"],
 button {
   font: inherit;
 }
