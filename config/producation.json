@@ -1,1 +1,7 @@
 
+  
+{
+  "mongoURI": "mongodb+srv://Satyam52:Satyam03@friendsfordev-ktxiw.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "Itsmydevconnectorsite",
+  "githubToken": "a26b1a7fbaf8c6bf919ca4677d27607686a2afb1"
+}
