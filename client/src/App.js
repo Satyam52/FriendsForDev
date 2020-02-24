@@ -73,8 +73,8 @@ function App() {
                 <Route component={NotFound} />
               </Switch>
             </section>
-            <Footer />
           </Switch>
+          <Footer />
         </Fragment>
       </Router>
     </Provider>
