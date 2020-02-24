@@ -15,7 +15,7 @@ const Dashboard = ({
   deleteAccount
 }) => {
   useEffect(() => {
-    getCurrentProfile();
+    if (!profile) getCurrentProfile();
   }, [getCurrentProfile]);
 
   return loading && profile === null ? (
