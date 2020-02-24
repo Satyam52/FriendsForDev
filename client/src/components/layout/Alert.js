@@ -36,7 +36,7 @@ const Alert = ({ alerts }) => (
         <MDBNotification
           key={alert.id}
           autohide={4000} // by default = ∞ ms
-          bodyClassName="p-5 font-weight-bold white-text"
+          bodyClassName="p-2 font-weight-bold white-text"
           className="stylish-color-dark"
           closeClassName="blue-grey-text"
           fade
